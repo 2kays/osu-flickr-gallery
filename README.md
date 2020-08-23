@@ -12,6 +12,9 @@ The gallery is auto-populated with images from Flickr's "interesting images"
 API. These change daily. The Title field for images is autofilled with the image
 title from Flickr.
 
+Main code of interest is here:  
+https://github.com/2kays/osu-flickr-gallery/tree/master/src/components
+
 ## Usage
 
 In the project directory, you can run:
