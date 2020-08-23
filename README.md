@@ -30,3 +30,17 @@ You will also see any lint errors in the console.
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Screenshots
+
+### Desktop Gallery:
+
+![](/gallery_screenshot1.png)
+
+### Mobile Gallery
+
+![](/gallery_screenshot2.png)
+
+### Favorites Manager
+
+![](/favmanager_screenshot1.png)
