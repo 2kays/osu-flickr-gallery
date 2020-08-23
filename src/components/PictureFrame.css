@@ -1,0 +1,47 @@
+
+input {
+    border-radius: 5px;
+
+    min-width: 50%;
+    max-width: 95%;
+}
+
+input.title {
+    font-size: 36px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    input.title {
+        font-size: 24px;
+    }
+}
+
+input.description {
+    font-size: 16px;
+    text-align: justify;
+
+    padding: 10px;
+    margin: 5px;
+}
+
+div.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+span#hint {
+    padding: 10px;
+}
+
+div.hint {
+    margin: 5px;
+    padding: 0px;
+}
+
+img.main-image {
+    width: 95%;
+}

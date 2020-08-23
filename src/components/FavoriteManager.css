@@ -1,0 +1,64 @@
+div.favorite-manager {
+    text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-cell {
+  flex: 0 0 20%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.flex-cell:before {
+  content: '';
+  display: table;
+  padding-top: 100%;
+}
+
+.flex-item {
+  flex-grow: 1;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white;
+  color: #111;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+
+  /* padding: 10px; */
+  /* margin: 5px; */
+}
+
+img.grid-image {
+    width: 350px;
+}
+
+button.go-back {
+    width: 300px;
+}
+
+div.fav-header {
+    display: flex;
+}
+
+div.fav-header > h2 {
+    margin-left: 10px;
+}
+
+button.delete-fav {
+    font-size: 40px;
+    color: #d00;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
